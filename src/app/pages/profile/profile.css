@@ -1,0 +1,20 @@
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.badge {
+  padding: 10px 15px;
+  font-size: 14px;
+}

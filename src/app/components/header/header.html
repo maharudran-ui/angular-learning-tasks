@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container">
+
+    <div>
+      <a class="navbar-brand fw-bold" routerLink="/dashboard/home">
+        Dollarbird
+      </a>
+
+      <small class="text-white ms-2">
+        {{ pageTitle }}
+      </small>
+    </div>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard/home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>

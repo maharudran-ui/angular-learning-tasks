@@ -1,0 +1,12 @@
+img{
+    height:350px;
+    object-fit:cover;
+}
+
+h1{
+    font-weight:bold;
+}
+
+p{
+    line-height:1.8;
+}
